@@ -1,0 +1,2 @@
+# MagicMedia
+MagicMedia's Webpage

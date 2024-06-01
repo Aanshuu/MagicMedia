@@ -12,6 +12,7 @@ export default function Home() {
           backgroundPosition: "top", // Place the background at the bottom
           minHeight: "100vh", // Ensure the background covers the entire viewport height
           paddingBottom: "10px", // Add padding at the bottom to create space
+          overflow: "hidden"
       }}>
           <Navbar/>
           <main>

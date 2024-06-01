@@ -1,2 +1,3 @@
 # MagicMedia
+
 MagicMedia's Webpage

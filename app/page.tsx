@@ -8,11 +8,11 @@ export default function Home() {
       <div style={{
           backgroundImage: "url('/linear_gradient.png')",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "100% auto", // Adjusts width to cover entire container, height adjusts automatically
+          backgroundSize: "[80%]", // Adjusts width to cover entire container, height adjusts automatically
           backgroundPosition: "top", // Place the background at the bottom
           minHeight: "100vh", // Ensure the background covers the entire viewport height
           paddingBottom: "10px", // Add padding at the bottom to create space
-          overflow: "hidden"
+          overflow: "hidden",
       }}>
           <Navbar/>
           <main>

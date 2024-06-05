@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import type { Config } from "tailwindcss";
-const plugin = require('tailwindcss/plugin');
+import plugin from 'tailwindcss/plugin';
+import type { PluginAPI } from 'tailwindcss/types/config';
 
 const config: Config = {
   content: [
@@ -21,7 +22,7 @@ const config: Config = {
     },
   },
   plugins: [
-    plugin(function({ addUtilities }) {
+    plugin(function({ addUtilities }:PluginAPI) {
       addUtilities({
         '.text-gradient': {
           'background-image': 'linear-gradient(to right, #A01122, #ECB54E)',

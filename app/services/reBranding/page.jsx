@@ -22,7 +22,7 @@ const PrintMedia = () => {
             </Link>
             <div className="w-full lg:p-24 lg:pt-40 ">
               <img src="/Rebranding.png" alt="OOH Marketing" className="object-cover" />
-              <p className="text-center mt-6 lg:text-3xl text-xl font-Poppins-500 text-white tracking-widest flex-nowrap">REBRANDING</p>
+              <p className="text-center lg:text-3xl text-xl font-Poppins-500 text-white tracking-widest flex-nowrap -mt-10">REBRANDING</p>
             </div>
             <Link href="/services/outOfHome">
               <button className="lg:hidden flex justify-center items-center">

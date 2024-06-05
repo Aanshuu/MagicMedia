@@ -58,7 +58,7 @@ const ContactUs = () => {
       <Navbar />
       <section className="flex flex-col items-center p-4 lg:flex-row lg:justify-between lg:p-16">
         <div className="lg:w-1/2 lg:pr-8">
-          <h1 className="text-5xl font-bold mb-4 flex-wrap">Let’s talk about Your Project!</h1>
+          <h1 className="text-3xl font-bold mb-4 flex-wrap lg:text-5xl">Let’s talk about Your Project!</h1>
           <div className="flex items-center mb-4">
             <div alt="Email Icon">
               <IoMdMail className='text-2xl mr-4 text-[#15243499]'/>
@@ -88,7 +88,7 @@ const ContactUs = () => {
             <span>@magicMedia</span>
           </div>
           <div>
-            <img src='Contact_Us.png' className=''/>
+            <img src='Contact_Us.png' className='flex flex-shrink'/>
           </div>
         </div>
         <div className="lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">

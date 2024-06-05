@@ -20,9 +20,9 @@ const PrintMedia = () => {
                   </div>
               </button>
             </Link>
-            <div className="w-full lg:p-24 lg:pt-40 ">
+            <div className="w-full lg:p-24 lg:pt-40 -mt-20">
               <img src="/Commercial_Production.png" alt="OOH Marketing" className="object-cover" />
-              <p className="text-center mt-6 lg:text-3xl text-xl font-Poppins-500 text-white tracking-widest flex-nowrap">COMMERCIAL PRODUCTION</p>
+              <p className="text-center lg:text-3xl text-xl font-Poppins-500 text-white tracking-widest flex-nowrap -mt-10">COMMERCIAL PRODUCTION</p>
             </div>
             <Link href="/services/advertisingInfra">
               <button className="lg:hidden flex justify-center items-center">

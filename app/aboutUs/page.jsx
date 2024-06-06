@@ -25,7 +25,7 @@ const AboutUs = () => {
           </Link>
         </div>
         <div className="lg:hidden lg:w-[48%] top-0 lg:mt-0 flex justify-center z-0 relative bg-[#F1C767]">
-          <img src="/About_Us_Mobile.png" alt="Team Illustration" className="max-w-full h-auto"/>
+          <img src="/About_Us_Mobile.png" alt="Team Illustration" className="max-w-full h-auto mt-24"/>
         </div>
         <div className="hidden top-0 lg:mt-0 lg:flex justify-center z-0 relative">
           <img src="/About_Us_team.png" alt="Team Illustration" className="max-w-full h-screen"/>

@@ -56,8 +56,8 @@ const ContactUs = () => {
     <div>
       <Toaster />
       <Navbar />
-      <section className="flex flex-col items-center p-4 lg:flex-row lg:justify-between lg:p-16">
-        <div className="lg:w-1/2 lg:pr-8">
+      <section className="flex flex-col items-center p-4 lg:flex-row lg:justify-between lg:p-16 lg:m-2 h-auto lg:h-screen">
+        <div className="lg:w-1/2 lg:pr-8 flex flex-col items-start lg:h-full">
           <h1 className="text-3xl font-bold mb-4 flex-wrap lg:text-5xl">Let’s talk about Your Project!</h1>
           <div className="flex items-center mb-4">
             <div alt="Email Icon">
@@ -91,16 +91,16 @@ const ContactUs = () => {
             <img src='Contact_Us.png' className='flex flex-shrink'/>
           </div>
         </div>
-        <div className="lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
-          <form className="bg-[#F1C7674D] p-6 rounded-lg" onSubmit={handleSubmit}>
-            <p className="mb-4 text-xl font-Poppins">Just fill the form and let us know what you need. Your email address will not be published.</p>
+        <div className="lg:w-[60%] lg:pl-8 mt-8 lg:mt-0 lg:h-full flex items-start ">
+          <form className="bg-[#F1C7674D] p-6 rounded-lg w-full" onSubmit={handleSubmit}>
+            <p className="mb-4 text-xl lg:text-2xl font-normal">Just fill the form and let us know what you need. Your email address will not be published.</p>
             <input
               type="text"
               name="name"
               placeholder="Name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent"
+              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent lg:text-xl"
             />
             <input
               type="text"
@@ -108,7 +108,7 @@ const ContactUs = () => {
               value={formData.number}
               onChange={handleChange}
               placeholder="Contact Number"
-              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent"
+              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent lg:text-xl"
             />
             <input
               type="email"
@@ -116,16 +116,16 @@ const ContactUs = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="Email Address"
-              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent"
+              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent lg:text-xl"
             />
             <textarea
               name="message"
               value={formData.message}
               onChange={handleChange}  
               placeholder="Your Message (If any)"
-              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent"
+              className="w-full p-2 mb-4 border-b-2 border-[#3F3F3F] focus:outline-none focus:border-b-2 focus:border-gray-500 bg-transparent lg:text-xl"
             ></textarea>
-            <button type="submit" className="bg-gradient-to-r from-[#A01122] to-[#ECB54E] text-white py-2 px-4 rounded-lg">Send Message</button>
+            <button type="submit" className="bg-gradient-to-r from-[#A01122] to-[#ECB54E] text-white py-2 px-4 rounded-lg lg:text-xl">Send Message</button>
           </form>
         </div>
       </section>

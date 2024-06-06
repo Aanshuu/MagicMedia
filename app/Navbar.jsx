@@ -6,10 +6,10 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <header className="top-0 text-white py-6 px-8 flex justify-between items-center z-50 relative lg:ml-10 lg:mr-10">
+    <header className="top-0 text-white lg:py-6 lg:px-8 py-3 px-6 flex justify-between items-center z-50 relative lg:ml-10 lg:mr-10">
       <div className="flex items-center">
-      <Link href="/page"> {/* Wrap the image with Link component */}
-          <img src="/magic_media_logo_text.png" alt="MagicMedia Logo" className="h-12" />
+      <Link href="/"> {/* Wrap the image with Link component */}
+          <img src="/magic_media_logo_text.png" alt="MagicMedia Logo" className="lg:h-12 h-10" />
       </Link>
       </div>
       <nav className="hidden md:flex items-center gap-6">

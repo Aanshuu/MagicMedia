@@ -24,7 +24,7 @@ const Clients = () => {
             </Link>
           </div>
           <div className="lg:hidden lg:w-[48%] top-0 lg:mt-0 flex justify-center z-0 relative bg-[#F1DAA7]">
-            <img src="/Clients_handshake.png" alt="Team Illustration" className="max-w-full h-auto  mt-52"/>
+            <img src="/Clients_handshake.png" alt="Team Illustration" className="max-w-full h-auto  mt-56"/>
           </div>
           <div className="hidden top-0 lg:mt-0 lg:flex justify-center z-0 relative">
             <img src="/Clients_handshake.png" alt="Team Illustration" className="max-w-full h-screen"/>

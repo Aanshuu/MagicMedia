@@ -21,8 +21,8 @@ const HomeMarketing = () => {
               </button>
             </Link>
             <div className="w-full lg:p-24 lg:pt-36 overflow-hidden">
-              <img src="/Out_Of_Home_Marketing.png" alt="OOH Marketing" className="object-cover w-full h-auto max-w-full max-h-full"/>
-              <p className="text-center mt-6 text-xl font-medium text-white tracking-widest lg:text-3xl">OOH MARKETING</p>
+              <img src="/Out_Of_Home_Marketing.svg" alt="OOH Marketing" className="object-cover w-full h-auto max-w-full max-h-full"/>
+              <p className="text-center mt-6 text-xl font-medium text-white tracking-[0.15em] lg:text-3xl">OOH MARKETING</p>
             </div>
             <Link href="/services/digitalMarketing">
               <button className="lg:hidden flex justify-center items-center">
@@ -36,8 +36,8 @@ const HomeMarketing = () => {
         {/* Text Portion */}
         <div className="order-2 lg:order-1 w-full lg:w-3/5 p-4 max-w-xl">
           <h1 className="text-xl lg:text-2xl mb-2.5 mt-9 lg:mb-10  text-[#00000099] font-medium">SERVICES</h1>
-          <h1 className="lg:hidden text-3xl lg:text-6xl mb-2.5 lg:mb-3 flex-wrap font-medium">Out of Home (OOH)</h1>
-          <h1 className="hidden text-3xl lg:text-6xl mb-2.5 lg:mb-3 flex-wrap font-medium lg:flex">Out Of Home Marketing</h1>
+          <h1 className="lg:hidden text-3xl lg:text-6xl mb-2.5 lg:mb-3 flex-wrap font-medium tracking-[-0.01em]">Out of Home (OOH)</h1>
+          <h1 className="hidden text-3xl lg:text-6xl mb-2.5 lg:mb-3 flex-wrap font-medium lg:flex tracking-[-0.01em]">Out Of Home Marketing</h1>
           <h1 className="text-xl lg:text-2xl mb-4 lg:mb-7 font-normal">Impactful Outdoor Advertising</h1>
           <p className="text-lg lg:text-2xl mb-2.5 lg:mb-6 font-normal flex-wrap text-[#000000B2] lg:text-black">Reach a broad audience with eye-catching, strategic outdoor advertisements.</p>
           <div className="flex items-center lg:mb-12">

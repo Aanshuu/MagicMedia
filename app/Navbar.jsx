@@ -16,22 +16,22 @@ const Navbar = () => {
         <ul className="list-none flex">
           <Link href="/aboutUs">
             <li>
-              <button className="text-black py-2 px-4 rounded-lg">About Us</button>
+              <button className="text-black py-2 px-4 rounded-lg lg:text-lg">About Us</button>
             </li>
           </Link>
           <Link href="/contactUs">
             <li>
-              <button className="text-black py-2 px-4 rounded-lg">Contact Us</button>
+              <button className="text-black py-2 px-4 rounded-lg lg:text-lg">Contact Us</button>
             </li>
           </Link>
           <Link href="/clients">
             <li>
-              <button className="text-black py-2 px-4 rounded-lg">Clients</button>
+              <button className="text-black py-2 px-4 rounded-lg lg:text-lg">Clients</button>
             </li>
           </Link>
           <Link href="/services/outOfHome">
           <li>
-            <button className="bg-gradient-to-r from-[#A01122] to-[#ECB54E] text-white py-2 px-4 rounded-lg ml-8">
+            <button className="bg-gradient-to-r from-[#A01122] to-[#ECB54E] text-white py-2 px-4 rounded-lg ml-8 lg:text-lg">
               Explore Services
             </button>
           </li>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-import backgroundImage from "../public/linear_gradient.png";
+import backgroundImage from "../public/linear_gradient.svg";
 
 export default function Home() {
     return (

@@ -58,37 +58,41 @@ const ContactUs = () => {
       <Navbar />
       <section className="flex flex-col items-center p-4 lg:flex-row lg:justify-between lg:p-16 lg:m-2 h-auto lg:h-screen">
         <div className="lg:w-1/2 lg:pr-8 flex flex-col items-start lg:h-full">
-          <h1 className="text-3xl font-bold mb-4 flex-wrap lg:text-5xl">Let’s talk about Your Project!</h1>
+          <h1 className="text-3xl font-bold mb-4 flex-wrap lg:text-5xl tracking-[-0.01em] lg:max-w-lg lg:mb-5">Let’s talk about Your Project!</h1>
           <div className="flex items-center mb-4">
             <div alt="Email Icon">
               <IoMdMail className='text-2xl mr-4 text-[#15243499]'/>
             </div>
-            <span >enquire@magicmedia.com</span>
+            <span className='text-[#15243499]'>enquire@magicmedia.com</span>
           </div>
           <div className="flex items-center mb-4">
             <div>
               <TbClockFilled className='text-2xl mr-4 text-[#15243499]'/>
             </div>
-            <span>Monday – Friday: 9:00 AM – 6:00 PM</span>
+            <span className='text-[#15243499]'>Monday – Friday: 9:00 AM – 6:00 PM</span>
           </div>
           <div className="flex items-center mb-4">
             <div>
               <IoLocationSharp className='text-2xl mr-4 text-[#15243499]'/>
             </div>
-            <span>WeWork, Residency Road, Bangalore, Karnataka</span>
+            <span className='text-[#15243499]'>WeWork, Residency Road, Bangalore, Karnataka</span>
           </div>
-          <div className="flex items-center mb-4">
-            <div>
-              <FaPhone className='text-xl mr-4 text-[#15243499]'/>
+          <div className="flex items-center mb-4 flex-wrap">
+            <div className='flex'>
+              <div>
+                <FaPhone className='text-xl mr-4 text-[#15243499]'/>
+              </div>
+              <span className='text-[#15243499]'>+91 7363493752</span>
             </div>
-            <span>+91 7363493752</span>
-            <div>
-              <BsInstagram className='text-2xl mr-2 ml-4 text-[#15243499]'/>
+            <div className='flex'>
+              <div>
+                <BsInstagram className='text-2xl mr-2 ml-4  text-[#15243499]'/>
+              </div>
+              <span className='text-[#15243499]'>@magicMedia</span>
             </div>
-            <span>@magicMedia</span>
           </div>
           <div>
-            <img src='Contact_Us.png' className='flex flex-shrink'/>
+            <img src='Contact_Us.svg' className='flex flex-shrink'/>
           </div>
         </div>
         <div className="lg:w-[60%] lg:pl-8 mt-8 lg:mt-0 lg:h-full flex items-start ">

@@ -21,8 +21,8 @@ const PrintMedia = () => {
               </button>
             </Link>
             <div className="w-full lg:p-24 lg:pt-40 overflow-hidden">
-              <img src="/Print_Media.png" alt="OOH Marketing" className="object-cover w-full h-auto max-w-full max-h-full" />
-              <p className="text-center mt-6 lg:text-3xl text-xl font-medium text-white tracking-widest">PRINT MEDIA</p>
+              <img src="/Print_Media.svg" alt="OOH Marketing" className="object-cover w-full h-auto max-w-full max-h-full" />
+              <p className="text-center mt-6 lg:text-3xl text-xl font-medium text-white tracking-[0.15em]">PRINT MEDIA</p>
             </div>
             <Link href="/services/influenceMarketing">
               <button className="lg:hidden flex justify-center items-center">
@@ -36,7 +36,7 @@ const PrintMedia = () => {
         {/* Text Portion */}
         <div className="order-2 lg:order-1 w-full lg:w-3/5 p-4 max-w-xl">
           <h1 className="text-xl lg:text-2xl mb-2.5 mt-9 lg:mb-10 font-medium text-[#00000099]">SERVICES</h1>
-          <h1 className="text-3xl lg:text-6xl mb-2.5 lg:mb-3 font-medium flex-wrap">Print Media</h1>
+          <h1 className="text-3xl lg:text-6xl mb-2.5 lg:mb-3 font-medium flex-wrap tracking-[-0.01em]">Print Media</h1>
           <h1 className="text-xl lg:text-2xl mb-4 lg:mb-7 font-normal">High-Quality Print Materials</h1>
           <p className="text-lg lg:text-2xl mb-2.5 lg:mb-6 font-normal flex-wrap text-[#000000B2] lg:text-black">Stand out with professional, eye-catching printed marketing collateral.</p>
           <div className="flex items-center lg:mb-12">

@@ -21,8 +21,8 @@ const PrintMedia = () => {
               </button>
             </Link>
             <div className="w-full lg:p-24 lg:pt-40 -mt-4 overflow-hidden">
-              <img src="/Brand_Activation.png" alt="OOH Marketing" className="object-cover w-full h-auto max-w-full max-h-full" />
-              <p className="text-center lg:text-3xl text-xl font-medium text-white tracking-widest flex-nowrap -mt-10">BRAND ACTIVATION</p>
+              <img src="/Brand_Activation.svg" alt="OOH Marketing" className="object-cover w-full h-auto max-w-full max-h-full" />
+              <p className="text-center lg:text-3xl text-xl font-medium text-white flex-nowrap -mt-10 tracking-[0.15em]">BRAND ACTIVATION</p>
             </div>
             <Link href="/services/reBranding">
               <button className="lg:hidden flex justify-center items-center">
@@ -36,7 +36,7 @@ const PrintMedia = () => {
         {/* Text Portion */}
         <div className="order-2 lg:order-1 w-full lg:w-3/5 p-4 max-w-xl">
           <h1 className="text-xl lg:text-2xl mb-2.5 mt-9 lg:mb-10 font-medium text-[#00000099]">SERVICES</h1>
-          <h1 className="text-3xl lg:text-6xl mb-2.5 lg:mb-3 font-medium flex-wrap">Brand Activation</h1>
+          <h1 className="text-3xl lg:text-6xl mb-2.5 lg:mb-3 font-medium flex-wrap tracking-[-0.01em]">Brand Activation</h1>
           <h1 className="text-xl lg:text-2xl mb-4 lg:mb-7 font-normal">Interactive Brand Experiences</h1>
           <p className="text-lg lg:text-2xl mb-2.5 lg:mb-6 font-normal flex-wrap text-[#000000B2] lg:text-black">Engage and captivate your audience with memorable brand interactions.</p>
           <div className="flex items-center lg:mb-12">

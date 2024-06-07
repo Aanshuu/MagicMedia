@@ -35,13 +35,13 @@ const PrintMedia = () => {
         </div>
         {/* Text Portion */}
         <div className="order-2 lg:order-1 w-full lg:w-3/5 p-4 max-w-xl">
-          <h1 className="text-xl lg:text-2xl mb-2.5 mt-9 lg:mb-10 font-medium text-[#00000099]">SERVICES</h1>
-          <h1 className="text-3xl lg:text-6xl mb-2.5 lg:mb-3 font-medium flex-wrap tracking-[-0.01em]">Influencer Marketing</h1>
-          <h1 className="text-xl lg:text-2xl mb-4 lg:mb-7 font-normal">Amplify your Brand with Influencers</h1>
-          <p className="text-lg lg:text-2xl mb-2.5 lg:mb-6 font-normal flex-wrap text-[#000000B2] lg:text-black">Leverage influencer partnerships to expand and strengthen your brand's message.</p>
+          <h1 className="text-base lg:text-2xl mb-2.5 mt-9 lg:mb-10 font-medium text-[#00000099] leading-[39px]">SERVICES</h1>
+          <h1 className="text-[26px] lg:text-6xl mb-2.5 lg:mb-3 font-medium flex-wrap tracking-[-0.01em] leading-[28.6px]">Influencer Marketing</h1>
+          <h1 className="text-base lg:text-2xl mb-4 lg:mb-7 font-normal leading-[20.8px]">Amplify your Brand with Influencers</h1>
+          <p className="text-base lg:text-2xl mb-4 lg:mb-6 font-normal flex-wrap text-[#000000B2] lg:text-black leading-[20.8px]">Leverage influencer partnerships to expand and strengthen your brand's message.</p>
           <div className="flex items-center lg:mb-12">
-            <span className="mr-4 text-gradient font-semibold text-lg lg:text-2xl">150+ Projects Done</span>
-            <span className="text-gradient font-semibold text-lg lg:text-2xl">100+ Testimonials</span>
+            <span className="mr-4 text-gradient font-semibold text-base lg:text-2xl leading-[20.8px]">150+ Projects Done</span>
+            <span className="text-gradient font-semibold text-base lg:text-2xl leading-[20.8px]">100+ Testimonials</span>
           </div>
           <Link href="/services/tvCommercialProduction">
             <button className="hidden lg:flex justify-center items-center">
